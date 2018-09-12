@@ -5,7 +5,7 @@ Feature: Lucky Google Search
 
   Scenario Outline: I'm Feeling Lucky Google Search
     Given I opened Google Search Page
-    When I type <searchstring> i n the Search String textfield
+    When I type <searchstring> in the Search String textfield
     And click on the I'm feeling Lucky-Button
     Then my URL should be <goal>
 
